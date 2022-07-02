@@ -1,0 +1,152 @@
+.header {
+  border: 8px !important;
+  border-style: double !important;
+  border-collapse: 50% !important;
+  border-color: blueviolet !important;
+  display: inline-block;
+  width: 50%;
+}
+.intro {
+  color: lemonchiffon;
+  border-radius: 18%;
+}
+#footer {
+  align-items: baseline;
+  display: inline-block;
+  width: 50%;
+}
+#wrapper {
+  background-color: #1f82c9;
+  min-height: 100%;
+  border-radius: 12%;
+  width: 47% !important;
+  margin: auto;
+  padding: 10px;
+  height: auto !important;
+  margin-bottom: -50px; /* the bottom margin is the negative value of the footer's total height */
+}
+img {
+  align-content: center;
+  display: flexbox;
+  flex-flow: nowrap;
+  padding: 5px;
+  border-radius: 9%;
+  border-style: double;
+  border-color: blueviolet;
+}
+nav {
+  border: #1ac382 solid 5px;
+  border-width: medium;
+  display: inline-block;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  font-weight: 450;
+  flex-basis: content;
+  flex-direction: column;
+  flex-flow: wrap;
+  flex-grow: inherit;
+}
+nav ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #010e80;
+  display: table;
+  width: fit-content;
+}
+nav li {
+  display: table-cell;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+body {
+  background-image: url("../realEstate/assets/stringio.jpg");
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+h1 {
+  display: flexbox;
+  margin: auto;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: xx-large;
+  font-style: italic;
+  text-align: center;
+  text-decoration: dotted;
+  text-rendering: optimizeLegibility;
+  color: goldenrod;
+  text-decoration-color: aquamarine;
+}
+
+h2 {
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+.contact {
+  border: #ef722a double 5px;
+  display: inline-block;
+}
+ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  text-transform: uppercase;
+  text-shadow: 0.8cm;
+  font-weight: 800;
+  align-items: center;
+  display: inline-block;
+  padding-left: 28px !important;
+  padding-right: 28px !important;
+}
+#cell {
+  padding-left: 28px !important;
+  content: icon;
+}
+li {
+  display: block;
+  flex-basis: content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: fit-content;
+  background-color: cadetblue;
+  background-blend-mode: saturation;
+  list-style-type: none;
+  border: 3px lightgray dashed;
+  padding: 12px;
+}
+#footerContent {
+  border: #9fb50f 3px dashed;
+  border-radius: 10%;
+  padding: 7px;
+}
+.vid {
+  width: 40%;
+  display: inline-block;
+}
